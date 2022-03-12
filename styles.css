@@ -1,0 +1,30 @@
+body {
+	background-color: #dddfff;
+}
+
+.home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.productos {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.producto {
+	max-width: 280px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    margin: 10px;
+}
+
+.producto img {
+	max-height: 250px;
+	border-radius: 10%;
+	max-width: 100%;
+}
